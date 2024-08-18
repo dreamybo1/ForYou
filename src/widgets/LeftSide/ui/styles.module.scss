@@ -1,0 +1,33 @@
+.LeftSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: .3s ease-in-out;
+}
+
+.Button:hover {
+    color: gray !important;
+    transition: .1s ease-in-out;
+
+}
+.TitleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Text {
+    font-size: 30px;
+
+    &Marshall{
+        font-size: 80px;
+        
+    }
+    &Major{
+        font-size: 60px;
+        color: #96060f;
+    }
+}
