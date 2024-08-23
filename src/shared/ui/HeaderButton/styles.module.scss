@@ -20,7 +20,7 @@
     align-items: center;
     font-family: "Racama";
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 20px;
     outline: none;
 
@@ -32,11 +32,11 @@
         overflow: none;
         border: none;
     }
+    @media screen and (max-width: 1100px) {
+        font-size: 20px;;
+    }
     @media screen and (max-width: 700px) {
         font-size: 15px;
 
-    }
-    @media screen and (max-width: 1100px) {
-        font-size: 20px !important;;
     }
 }

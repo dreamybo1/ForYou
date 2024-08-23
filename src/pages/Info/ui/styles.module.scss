@@ -1,0 +1,30 @@
+.Info {
+    width: 100%;
+    height: 100%;
+    
+    background: rgb(235,169,111);
+    background: linear-gradient(180deg, rgba(235,169,111,1) 0%, rgba(143,151,161,1) 100%);
+}
+
+.iamgeContainer {
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(248,255,161);
+    background: linear-gradient(180deg, rgba(248,255,161,1) 0%, rgba(212,122,244,1) 30%, rgba(235,189,30,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(248,255,161);
+    background: linear-gradient(180deg, rgba(248,255,161,1) 0%, rgb(193, 67, 132) 30%, rgb(59, 47, 3) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}

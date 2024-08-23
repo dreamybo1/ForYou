@@ -1,10 +1,5 @@
 .LeftSide {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
     transition: .3s ease-in-out;
 }
 
@@ -16,18 +11,34 @@
 .TitleDiv {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    color: black;
+    line-height: normal;
+    font-family: "Racama";
+    @media screen and (max-width: 700px) {
+        align-items: center;
+    }
 }
 .Text {
-    font-size: 30px;
-
+    font-family: "Racama";
+    font-size: 25px;
+    color: black;
     &Marshall{
-        font-size: 80px;
+        font-size: 70px;
         
     }
     &Major{
-        font-size: 60px;
+        font-size: 50px;
         color: #96060f;
+    }
+}
+
+.container {
+    @media screen and (max-width: 700px) {
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 }
