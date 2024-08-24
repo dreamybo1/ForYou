@@ -1,13 +1,14 @@
 .Header {
-    position: absolute;
+    position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100vw;
     height: 90px;
     background-color:black;
     display: flex;
     padding: 15px;
     align-items: center;
     gap: 15px;
+    z-index: 1;
 
 }
 

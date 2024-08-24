@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
 import Logo from '../../../shared/assets/marshall-logo.svg?react'
 import Search from '../../../shared/assets/search-svgrepo-com.svg?react'
@@ -12,7 +11,6 @@ function Header() {
   const location = useLocation();
   const path = location.pathname
   const isProfile = path === "/profile"
-  console.log(path);
   const {width} = useWindowDimensions()  
 
 

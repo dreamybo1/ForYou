@@ -5,10 +5,11 @@ import { RouterProvider } from 'react-router-dom'
 import { router } from './app/providers/router.tsx'
 import Content from './app/layouts/content/Content.tsx'
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Content>
-      <RouterProvider router={router} />
+        <RouterProvider router={router} />
     </Content>
   </StrictMode>,
 )

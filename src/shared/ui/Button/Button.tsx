@@ -1,4 +1,4 @@
-import React, { HTMLProps } from 'react'
+import React from 'react'
 import styles from './styles.module.scss'
 type PropTypes = {
     fs?:string

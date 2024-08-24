@@ -8,6 +8,12 @@
     transition: .1s ease-in-out;
 
 }
+.Button:disabled {
+    color: black !important;
+    transition: .1s ease-in-out;
+    background: grey !important;
+
+}
 .TitleDiv {
     display: flex;
     flex-direction: column;

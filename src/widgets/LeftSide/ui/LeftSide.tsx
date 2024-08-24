@@ -1,15 +1,15 @@
-import React from 'react'
+import { useContext } from 'react'
 import styles from './styles.module.scss'
-import Logo from '../../../shared/assets/marshall-logo.svg?react'
-import Search from '../../../shared/assets/search-svgrepo-com.svg?react'
 import Button from '../../../shared/ui/Button/Button'
 import { Link, useNavigate } from 'react-router-dom'
+import { TurnOnVideo } from '../../../shared/context'
 
 function LeftSide() {
   const onClick = () => {
     navigator.vibrate(1)
     document.location.href = 'https://t.me/dreamybo1'
   }
+  const {on} = useContext(TurnOnVideo)
 
 const navigate = useNavigate()
 
@@ -43,15 +43,16 @@ const navigate = useNavigate()
         </span>
         <div className='w-full flex flex-col items-center gap-[15px] justify-center'>
           <Button
-            BGColor='#026257'
+            BGColor={'#026257'}
             color='white'
             width='300px'
             height='70px'
             fs='25'
+            disabled={!on}
             onClick={()=> {navigate('/video')}}
             className={styles.Button}
           >
-            Затестить
+            ???
           </Button>
           <Button
             onClick={onClick}
