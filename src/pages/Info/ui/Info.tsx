@@ -63,10 +63,10 @@ export const Info: FC<InfoProps> = () => {
     const [playFifthPartVoice] = useSound(FifthPartVoice, {volume: .5, soundEnabled:sound});
     const ref = useRef()
     const {ref:videoRef, inView: inViewVideoVoice} = useInView({
-        threshold: 0.9,
+        threshold: 0.1,
     })
     const {ref:thirdPartRef, inView: inViewThirdPart} = useInView({
-        threshold: 0.9,
+        threshold: 0.1,
     })
     useEffect(()=>{
         if (loadedBg && loadedStart && ref.current) {

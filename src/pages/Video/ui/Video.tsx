@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player';
 import { Header } from '../../../widgets/Header';
 import styles from './styles.module.scss'
-import videoFile from "../../../shared/assets/video/2023-07-06 19.02.24.mp4"
+import videoFile from "../../../shared/assets/video/avc_video.mp4"
 import PlayButton from '../../../shared/assets/play2-svgrepo-com.svg?react'
 import { useEffect, useRef, useState } from 'react';
 import useWindowDimensions from '../../../shared/hooks/width';
